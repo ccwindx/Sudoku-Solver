@@ -79,6 +79,12 @@ bool sudoku(int arr[9][9])
   return false;
 }
 
+/* find the next empty grid 
+ * @param arr[9][9] the puzzle board
+ * @param &r pass by reference of row 
+ * @param &c pass by reference of column
+ * @return true if find empty grid on the board, false if not 
+ */
 bool findEmptyGrid(int arr[9][9], int &r, int &c)
 {
   for (r = 0; r < 9; r++)
