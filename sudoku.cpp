@@ -29,6 +29,7 @@ bool checkSquare(int arr[9][9], int r, int c, int num);
 /* print the grid to the screen */
 void printGrid(int arr[9][9]);
 
+/* main program */
 int main()
 {
   std::ifstream in("list");
